@@ -1,0 +1,30 @@
+{
+  "RandomForest": {
+    "accuracy": 0.863,
+    "precision": 0.9827,
+    "recall": 0.739,
+    "f1": 0.8436,
+    "roc_auc": 0.9248
+  },
+  "XGBoost": {
+    "accuracy": 0.8705,
+    "precision": 0.9427,
+    "recall": 0.789,
+    "f1": 0.859,
+    "roc_auc": 0.9268
+  },
+  "LogisticRegression": {
+    "accuracy": 0.7975,
+    "precision": 0.9268,
+    "recall": 0.646,
+    "f1": 0.7613,
+    "roc_auc": 0.874
+  },
+  "SHAP-LIME-Stack (ours)": {
+    "accuracy": 0.858,
+    "precision": 0.8776,
+    "recall": 0.832,
+    "f1": 0.8542,
+    "roc_auc": 0.9259
+  }
+}
