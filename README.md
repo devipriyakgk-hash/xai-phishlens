@@ -1,4 +1,4 @@
-# XAI-PhishGuard
+# XAI-PhishLens
 
 Phishing website detection using a stacking ensemble (Random Forest + XGBoost + Logistic Regression) explained with **SHAP** (global feature importance) and **LIME** (local, per-prediction reasoning).
 
@@ -47,7 +47,7 @@ This lines up with known phishing patterns: attackers favor long, obfuscated URL
 ## Project structure
 
 ```
-xai-phishguard/
+xai-phishlens/
 ├── data/
 │   └── urldata.csv              # raw dataset
 ├── src/
